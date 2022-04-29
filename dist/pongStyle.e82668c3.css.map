@@ -1,0 +1,1 @@
+{"version":3,"sources":["style/pongStyle.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"pongStyle.e82668c3.css","sourceRoot":"..","sourcesContent":["body{\n    text-align: center;\n}\ncanvas{\n    display: block;\n    margin: 0px auto;\n    background: black;\n}\ndiv#game-ctrl {\n    padding-top: 25px;\n}\n"]}
