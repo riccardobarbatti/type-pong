@@ -10,7 +10,7 @@ export class Ball extends Entity{
 
     constructor(w:number,h:number,x:number,y:number){
         super(w,h,x,y);
-        //made random direction ball
+        //random direction ball
         var randomDirection = Math.floor(Math.random() * 2) + 1;
         if(randomDirection % 2){
             this.xVel = 1;
@@ -21,7 +21,7 @@ export class Ball extends Entity{
     }
     update(player:Paddle,computer:ComputerPaddle,canvas){
 
-        //bounce bal limit left | right border
+        //bounce ball limit left | right border
         //-----------------------------------------
         //check left canvas bounds
         if(this.x <= 0){
