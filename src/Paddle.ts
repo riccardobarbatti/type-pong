@@ -4,7 +4,7 @@ import {KeyBindings} from "./Controls";
 
 export class Paddle extends Entity{
 
-    //Paddle Move
+    //Paddle Move speed
     private speed:number = 10;
 
     constructor(w:number,h:number,x:number,y:number){
