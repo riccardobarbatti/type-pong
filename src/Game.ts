@@ -33,10 +33,11 @@ export class Game {
 
         //computer player
         this.computerPlayer = new ComputerPaddle(paddleWidth,paddleHeight, this.gameCanvas.width / 2 - paddleWidth / 2, this.gameCanvas.height / 2 - paddleHeight - 320);
-
+        
+        //ball
         this.ball = new Ball(ballSize,ballSize,this.gameCanvas.width / 2 - ballSize / 2, this.gameCanvas.height / 2 - ballSize / 2);
 
-        console.log("Pong init")
+        console.log("*** Pong Init ***")
 
     }
     drawBoardDetails(){
