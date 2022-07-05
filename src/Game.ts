@@ -28,7 +28,7 @@ export class Game {
         //paddle set size and wall offset
         var paddleWidth:number = 50, paddleHeight:number = 10, ballSize:number = 10, wallOffset:number = 50;
 
-        //payer
+        //player
         this.player1 = new Paddle(paddleWidth, paddleHeight, this.gameCanvas.width / 2 - paddleWidth / 2,this.gameCanvas.height  - paddleHeight - 20);
 
         //computer player
