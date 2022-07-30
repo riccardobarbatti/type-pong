@@ -6,7 +6,7 @@ Classic Pong Game in Typescript - Portrait Mode
 
 ## Demo
 <p align="center">
-  <img src="type-pong-game.gif" width="960" alt="TypePong" />
+  <img src="type-pong-game.gif" width="600" alt="TypePong" />
 </p>
 
 
