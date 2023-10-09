@@ -11,7 +11,7 @@ Classic Pong Game in Typescript - Portrait Mode
 
 
 
-## Deployment
+## Build Game
 
 To deploy this project install parcel
 
